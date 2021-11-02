@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Testando consumo de api</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<select id="monster">
+		<option value="">Selecionar</option>
+	</select>
+	<button onclick="loadAPI()">Carregar</button>
+	<div class="ficha">
+		<h2 id="name"></h2>
+		<small id="size"></small>
+		<hr>
+		<ul>
+			<li id="hp"></li>
+			<li id="ca"></li>
+		</ul>
+		<hr>
+		<table>
+			<tr>
+				<td>FOR</td>
+				<td>DES</td>
+				<td>CON</td>
+				<td>INT</td>
+				<td>SAB</td>
+				<td>CAR</td>
+			</tr>
+			<tr>
+				<td id="for"></td>
+				<td id="des"></td>
+				<td id="con"></td>
+				<td id="int"></td>
+				<td id="sab"></td>
+				<td id="car"></td>
+			</tr>
+		</table>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
