@@ -13,10 +13,6 @@ body{
 	justify-content: center;
 }
 
-h1{
-	text-align: center;
-}
-
 .ficha{
 	width: 600px;
 	max-width: 95vw;
@@ -45,11 +41,15 @@ table{
 	width: 100%;
 }
 
+h1{
+	text-align: center;
+}
+
 .wrap{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	
+
 	width: 100vw;
 }
 
@@ -70,4 +70,10 @@ nav{
 .active{
 	height: auto;
 	opacity: 100%;
+}
+
+@media screen and (max-width: 500px){
+	nav{
+		flex-direction: column;
+	}
 }
