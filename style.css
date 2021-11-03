@@ -51,7 +51,7 @@ table{
 
 select, button{
 	width: 360px;
-	max-width: 100%;
+	max-width: 45vw;
 	margin: 5px;
 	box-sizing: border-box;
 
