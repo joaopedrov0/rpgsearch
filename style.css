@@ -71,9 +71,3 @@ nav{
 	height: auto;
 	opacity: 100%;
 }
-
-@media screen and (max-width: 500px){
-	nav{
-		flex-direction: column;
-	}
-}
