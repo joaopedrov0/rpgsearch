@@ -18,6 +18,7 @@ const sab = document.querySelector('#sab')
 const car = document.querySelector('#car')
 
 function loadAPI() {
+	document.querySelector('.ficha').classList.add('active')
 	let httpRequest = new XMLHttpRequest()
 	httpRequest.open('GET', baseURL + testURL + `${document.querySelector('#monster').value}/`)
 	httpRequest.responseType = 'json'

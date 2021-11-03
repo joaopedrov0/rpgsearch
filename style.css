@@ -3,16 +3,32 @@ body{
 	padding: 0;
 
 	font-family: verdana;
+
+	width: 100vw;
+	height: 100vh;
+
+	overflow: hidden;
+
+	display: flex;
+	justify-content: center;
 }
 
 .ficha{
 	width: 600px;
+	max-width: 95vw;
 	margin: 50px;
 	border: none;
 	padding: 30px;
 	border-radius: 3px;
 
-	box-shadow: 0px 0px 30px black;
+	box-shadow: 0px 0px 30px #bdbdbd;
+
+	height: 0px;
+	box-sizing: border-box;
+
+	opacity: 0%;
+
+	transition: all 500ms ease;
 }
 
 ul{
@@ -23,4 +39,29 @@ ul{
 
 table{
 	width: 100%;
+}
+
+.wrap{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+select, button{
+	width: 360px;
+	max-width: 100%;
+	margin: 5px;
+	box-sizing: border-box;
+
+	height: 50px;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+}
+
+.active{
+	height: auto;
+	opacity: 100%;
 }
